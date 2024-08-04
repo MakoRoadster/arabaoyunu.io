@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#gameArea {
+    width: 100vw;
+    height: 100vh;
+    background: #d0d0d0;
+    position: relative;
+    overflow: hidden;
+}
+
+#car {
+    width: 50px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 25px);
+}
+
+#obstacle {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: -50px; /* Başlangıçta görünmeyen bir pozisyonda */
+    left: calc(50% - 25px);
+}
